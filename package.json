@@ -1,7 +1,7 @@
 {
     "name": "robotsforce1",
     "version": "1.0.0",
-    "description": "The Presidential package of robots.txt generation—— Pair this with SitemapTeam6 for total control over how bots crawl your AO.",
+    "description": "The presidential package of robots.txt generators. A joint task force of elite directives securing the perimeter against unauthorized bots.",
     "main": "./src/index.mjs",
     "type": "module",
     "files": [

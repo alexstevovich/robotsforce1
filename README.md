@@ -2,10 +2,12 @@
 
 > ### _Define the crawl zones. Control the AO._
 
-**RobotsForce1** –The presidential package of robots.txt generators. A joint task force of elite directives, securing the perimeter against unauthorized bots. Precision, control, and absolute authority over your domain.
+**RobotsForce1** – The presidential package of robots.txt generators. A joint task force of elite directives, securing the perimeter against unauthorized bots. Precision, control, and absolute authority over your domain.
 
 <br>
+
 [![npm version](https://img.shields.io/npm/v/robotsforce1.svg)](https://www.npmjs.com/package/robotsforce1)
+
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
 ## Features
