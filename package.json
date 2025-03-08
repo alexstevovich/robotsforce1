@@ -1,0 +1,59 @@
+{
+    "name": "robotsforce1",
+    "version": "1.0.0",
+    "description": "The Presidential package of robots.txt generation—— Pair this with SitemapTeam6 for total control over how bots crawl your AO.",
+    "main": "./src/index.mjs",
+    "type": "module",
+    "files": [
+        "./src",
+        "./gen"
+    ],
+    "scripts": {
+        "test": "vitest",
+        "tsify": "npx tsc --declaration --emitDeclarationOnly --outFile index.d.ts",
+        "preamble": "preamble --apply --dir ./src/",
+        "zord": "filezord --zord --dir ./ --id pkg:robotsforce1",
+        "pretty": "npx prettier --write .",
+        "lint": "eslint ./src/",
+        "lint:fix": "eslint --fix ./src/",
+        "build": "npm run preamble && npm run pretty && npm run lint:fix && npm run tsify && node build.js && npm run zord"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alexstevovich/robotsforce1.git"
+    },
+    "author": {
+        "name": "Alex Stevovich",
+        "email": "alex.stevovich@gmail.com",
+        "url": "https://alexstevovich.com"
+    },
+    "license": "Apache-2.0",
+    "keywords": [
+        "robots.txt",
+        "robots",
+        "sitemap",
+        "seo",
+        "search-engines",
+        "crawler",
+        "crawl-rules",
+        "fluent-api",
+        "javascript",
+        "web",
+        "automation",
+        "web-crawling",
+        "web-scraping",
+        "site-indexing",
+        "robots-txt-generator"
+    ],
+    "devDependencies": {
+        "@eslint/js": "^9.22.0",
+        "eslint": "^9.21.0",
+        "eslint-plugin-prettier": "^5.2.3",
+        "markdownlint": "^0.37.4",
+        "markdownlint-cli": "^0.44.0",
+        "prettier": "^3.5.3",
+        "tsd": "^0.31.2",
+        "vitest": "^3.0.8",
+        "esbuild": "^0.25.0"
+    }
+}
